@@ -1,0 +1,175 @@
+@charset "utf-8";
+/* CSS Document */
+
+#navigation
+{
+  display: flex;
+  align-items: center;
+  font-family: Arial;
+  margin-right: 20px;
+  justify-content: space-between;
+  margin-left: 1300px;
+  
+}
+
+a{
+    text-decoration:none;
+  color:#777777;
+}
+
+#google
+{
+        font-family: Arial;
+        margin-top: 70px;
+}
+.google-logo
+{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
+
+.barre
+{
+  display:flex;
+  justify-content: center;
+}
+ #search 
+{ 
+  height: 30px;
+  width: 600px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  margin-top: 10px;
+    margin-bottom:10px;
+    background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+}
+
+#google-search
+{
+  margin-right: 5px;
+  background-color:#f2f2f2;
+  border:none;
+  border-radius: 5px;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+}
+
+#google-lucky
+{
+  background-color:#f2f2f2;
+  border:none;
+  border-radius: 5px;
+  padding: 14px 40px;
+  transition-duration: 0.4s;
+}
+
+
+#google-lucky:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#google-search:hover 
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.buttons
+{
+  display: flex;
+  justify-content: center;
+  font-family: Arial;
+  margin-top: 20px;
+  
+}
+
+
+#footer
+{
+  position: absolute;
+  bottom:0;
+  width: 99%;
+  background-color: #f2f2f2;
+  
+}
+.footer-language
+{
+  font-family: Arial;
+  background-color: #f2f2f2;
+  flex-direction: row;
+  color:#777777
+}
+
+p{
+    border-bottom: 1px solid #dadce0;
+  padding: 5px 20px;
+}
+
+#secondeligne
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:#f2f2f2; 
+}
+#footer-left
+{
+  display:flex;
+    font-family: Arial;
+    background-color: #f2f2f2;
+  flex-direction: row;
+  padding: 5px 20px;
+}
+
+#footer-middle
+{
+    font-family: Arial;
+    background-color: #f2f2f2;
+  flex-direction: row;
+  padding: 5px 20px;
+}
+
+#footer-right
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-family: Arial;
+  background-color: #f2f2f2;
+  padding: 5px 20px;
+ 
+}
+
+.a-propos
+{
+  padding:5px;
+}
+
+.publicite
+{
+  padding:5px;
+}
+
+.Entreprise
+{
+padding:5px;
+}
+
+.recherche-google-fonctionnement
+{
+  padding:5px;
+}
+
+.info-conso {
+  padding:5px;
+}
+.confidentialite {
+  padding:5px;
+}
+.Conditions{padding:5px;}
+.Parametres{padding:5px;}
